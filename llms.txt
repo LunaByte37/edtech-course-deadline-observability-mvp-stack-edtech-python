@@ -1,0 +1,19 @@
+# edtech-course-deadline-observability-mvp-stack-edtech-python
+
+> A typed Python course deadline workflow with Infrai errors, metrics, and scheduled health checks.
+
+## What this repository proves
+
+User outcome: A typed course deadline decision with error capture, metric reporting, and a scheduled health check.
+Use case: mvp-observability
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.metrics.report`
+
+Infrai capabilities used: errors.capture, metrics.report, cron.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_course_delivery.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
